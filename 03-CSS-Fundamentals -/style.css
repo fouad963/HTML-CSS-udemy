@@ -1,0 +1,145 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+h1 {
+  font-style: italic;
+  text-align: center;
+}
+h1::first-letter {
+  font-style: normal;
+}
+nav {
+  text-align: center;
+  font-size: 20px;
+}
+button {
+  font-size: 20px;
+  padding: 20px;
+  position: absolute;
+  cursor: pointer;
+  bottom: 50px;
+  right: 50px;
+}
+body {
+  font-family: sans-serif;
+  border-top: 10px solid rgb(85, 175, 214);
+  border-bottom: 10px solid rgb(85, 175, 214);
+}
+/*body {
+  background-color: rgb(179, 80, 56);
+}*/
+.main-header {
+  background-color: #f6f6f6;
+
+  padding: 40px 20px;
+  margin-bottom: 50px;
+}
+
+.post-header {
+  margin-bottom: 50px;
+}
+h1,
+h2,
+h3 {
+  color: rgb(92, 177, 50);
+  font-size: 30px;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 30px;
+  position: relative;
+}
+h2::after {
+  content: "Top";
+  font-size: 20px;
+  background-color: bisque;
+  display: inline-block;
+  position: absolute;
+  top: -15px;
+  right: -5px;
+  font-style: bold;
+}
+h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 30px;
+  text-align: center;
+}
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+li:last-child {
+  margin-bottom: 0px;
+}
+footer p {
+  font-size: 16px;
+}
+article header p {
+  font-style: italic;
+}
+#copyright {
+  color: rgb(97, 127, 255);
+}
+.container {
+  width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+.post-img {
+  width: 100%;
+  height: auto;
+}
+.none-deco {
+  list-style: none;
+  text-decoration-line: none;
+}
+aside {
+  background-color: #f6f6f6;
+  border: 5px solid rgb(145, 178, 239);
+  padding: 50px 0px;
+}
+a {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+a:link {
+  color: rgb(118, 215, 212);
+}
+a:visited {
+  color: rgb(48, 118, 115);
+}
+a:hover {
+  color: rgb(86, 75, 96);
+  font-weight: bold;
+  text-decoration: underline wavy;
+}
+a:active {
+  color: rgb(28, 19, 24);
+  font-weight: bold;
+  text-decoration: underline wavy;
+}
+ul,
+ol {
+  padding-left: 50px;
+}
+nav a:link {
+  margin: 10px;
+  padding: 5px;
+  display: inline-block;
+}
+nav a:link:last-child {
+  margin-left: 0%;
+}
+button::first-letter {
+  color: red;
+}
